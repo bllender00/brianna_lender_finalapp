@@ -1,0 +1,112 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Truculenta', sans-serif;
+    font-weight: 500;
+}
+
+canvas {
+    display: block;
+}
+
+.info_light, 
+.info_dark {
+    width: 60%;
+    margin: 0 5%;
+}
+
+.info_light {
+    color: #ffffff;
+}
+
+
+h1 {
+    font-weight: 900;
+    margin: 30px 0px 0px 0px;
+}
+
+h2 {
+    font-weight: 800;
+    margin: 10px 0px 0px 0px;
+}
+
+.parameter {
+    font-family: 'Truculenta', sans-serif;
+    font-size: 1.3em;
+    font-weight: 800;
+}
+
+p, ul {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.2px;
+    list-style: none;
+    margin: 0;
+}
+
+/* dat.GUI Styles */
+.dg.main.taller-than-window .close-button {
+    border-top: 1px solid #ddd;
+}
+
+.dg.main .close-button {
+    background-color: #ccc;
+}
+ 
+.dg.main .close-button:hover {
+    background-color: #ddd;
+}
+
+.dg {
+    color: #555;
+    text-shadow: none !important;
+}
+
+.dg.main::-webkit-scrollbar {
+    background: #fafafa;
+}
+
+.dg.main::-webkit-scrollbar-thumb {
+    background: #bbb;
+}
+ 
+.dg li:not(.folder) {
+    background: none;
+    border-bottom: 1px solid #fff;
+}
+ 
+.dg li.save-row .button {
+    text-shadow: none !important;
+}
+
+.dg li.title {
+    background: #e8e8e8 url(data:image/gif;base64,R0lGODlhBQAFAJEAAP////Pz8////////yH5BAEAAAIALAAAAAAFAAUAAAIIlI+hKgFxoCgAOw==) 6px 10px no-repeat;
+}
+
+.dg .cr.function:hover,.dg .cr.boolean:hover {
+    background: #484848;
+}
+ 
+.dg .c input[type=text] {
+    background: none;
+}
+ 
+.dg .c input[type=text]:hover {
+    background: #484848;
+}
+ 
+.dg .c input[type=text]:focus {
+    background: #eee;
+    color: #555;
+}
+ 
+.dg .c .slider {
+    background: none;
+}
+
+.dg .c .slider:hover {
+    background: #484848;
+}
+
+
+
