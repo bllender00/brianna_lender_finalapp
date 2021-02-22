@@ -112,7 +112,7 @@ border: 1px solid;
 }
 
 .dg .cr.function:hover,.dg .cr.boolean:hover {
-    background:none;
+    background: rgba(40, 40, 40, 0.7)
 }
 
  
